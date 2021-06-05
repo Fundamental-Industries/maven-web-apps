@@ -9,9 +9,9 @@ node{
   stage('mavenBuild') {
     sh "${mavenHome}/bin/mvn clean package"
   }
-// multi line comment in groovy script 
+// multi line comment in groovy script
  /*
- Multi branch jenkins job
+ Multi branch jenkins job today
  */
   /*
   stage('CodeQuality') {
